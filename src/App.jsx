@@ -84,6 +84,9 @@ const VibePalette = () => {
       <Button onClick={() => setPalette(generatePalette())}>
         Generate
       </Button>
+	  <p className="text-xs text-neutral-600 dark:text-neutral-400 opacity-60 mt-8">
+  created by TF
+      </p>
     </div>
   );
 };
